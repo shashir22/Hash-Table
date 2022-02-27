@@ -16,6 +16,7 @@ namespace HashTable
                 hash.Add(key, word);
                 key++;
             }
+            hash.Remove(14);
             for (key = 0; key < paragraph.Length; key++)
             {
                 string value = hash.Get(key);
